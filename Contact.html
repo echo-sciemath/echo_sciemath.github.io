@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        
+        <div class="p-4 bg-primary text-white text-center">
+            <h1>My First Homepage</h1>
+            <p>Eko Pramesti Sumarto</p> 
+          </div>
+          
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curriculum_vitae.html" >CV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" >Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        
+          <section id="contact" class="contact-section pt-130">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 col-xl-5">
+                  <div class="section-title text-center mb-60">
+                    <h2 class="mb-25 animate__animated animate__fadeInDown" data-animate__animated-delay=".2s">Ask me</h2>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="contact-wrapper animate__animated animate__fadeInUp" data-animate__animated-delay=".2s">
+                    <form action="#" method="POST" id="contact-form" class="contact-form" onsubmit="greet(); return false;">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="single-form">
+                            <input type="text" name="name" id="name" class="form-input" placeholder="Your Name">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-form">
+                            <input type="email" name="email" id="email" class="form-input" placeholder="Your E-mail">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-form">
+                            <input type="text" name="subject" id="subject" class="form-input" placeholder="Subject">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-form">
+                            <input type="text" name="number" id="number" class="form-input" placeholder="Your Number">
+                          </div>
+                        </div>
+      
+                        <div class="col-md-12">
+                          <div class="single-form">
+                            <textarea name="message" id="message" class="form-input" rows="7" placeholder="Message"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="submit-btn">
+                            <button class="main-btn btn-hover btn btn-secondary rounded-pill" type="submit">Submit Message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+      
+                
+              </div>
+            </div>
+          </section>
+
+          <div class="mt-2 p-2 bg-dark text-white text-center"> by Eko Pramesti Sumarto 2023 </div>
+          
+    </body>
+    <script src="script.js"></script>
+
+</html>
